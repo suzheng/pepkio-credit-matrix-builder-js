@@ -2,6 +2,7 @@
   "name": "pepkio-credit-matrix-builder",
   "version": "0.1.0",
   "description": "Build author × CRediT role matrices, generate journal-ready contribution statements, and export CSV or JATS XML via the Pepkio REST API.",
+  "readme": "README_NPM.md",
   "type": "module",
   "engines": {
     "node": ">=18"
@@ -20,6 +21,7 @@
   "files": [
     "dist",
     "README.md",
+    "README_NPM.md",
     "LICENSE"
   ],
   "scripts": {
@@ -30,27 +32,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suzheng/pepkio-credit-matrix-builder-js.git"
+    "url": "git+https://github.com/pepkio/pepkio-credit-matrix-builder-js.git"
   },
   "bugs": {
-    "url": "https://github.com/suzheng/pepkio-credit-matrix-builder-js/issues"
+    "url": "https://github.com/pepkio/pepkio-credit-matrix-builder-js/issues"
   },
   "homepage": "https://www.pepkio.com/tools/credit-matrix-builder",
   "keywords": [
     "credit-matrix-builder",
-    "authorship",
     "credit",
     "contributor-roles",
     "niso-credit",
+    "authorship",
+    "author-contributions",
     "manuscript",
-    "publishing",
+    "scientific-publishing",
     "jats-xml",
+    "plos",
+    "elsevier",
     "pepkio",
     "laboratory-tools",
+    "life-sciences",
     "typescript",
     "node",
-    "rest-api",
-    "scientific-publishing"
+    "rest-api"
   ],
   "author": "Pepkio Team",
   "license": "MIT",
