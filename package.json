@@ -16,7 +16,7 @@
     }
   },
   "bin": {
-    "pepkio-credit-matrix-builder": "./dist/cli.js"
+    "pepkio-credit-matrix-builder": "dist/cli.js"
   },
   "files": [
     "dist",
